@@ -10,9 +10,10 @@
 	```
  	 docker run --rm -v "${PWD}:/code" humanmade/plugin-tester --colors=always
 	```
- ### OR  Inside git :
-		docker run --rm -v "$(pwd -W):/code" humanmade/plugin-tester
- 
+ OR  Inside git :
+	```
+	docker run --rm -v "$(pwd -W):/code" humanmade/plugin-tester
+	 ```
  - ` Write tests inside tests folder and run them `
  - ` .github folder allows you to run those tests on CI pipeline automatically on every PRs `
 
