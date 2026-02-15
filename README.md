@@ -2,6 +2,7 @@
 [![this repository](https://github.com/humanmade/plugin-tester/tree/master?tab=readme-ov-file)]
 
 ## Follow this steps to setup a docker environment for testing your wp plugin
+ - ` Run Docker`
  - ` Clone this repository`
  - ` replace this line in bootstrap.php, with you plugin file name : your-plugin-entry-point.php`
  - ` Run : composer update`
