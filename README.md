@@ -5,7 +5,10 @@
  - ` Clone this repository`
  - ` replace this line in bootstrap.php, with you plugin file name : your-plugin-entry-point.php`
  - ` Run : composer update`
- - ` Run inside powershell :`  docker run --rm -v "${PWD}:/code" humanmade/plugin-tester
+ - ` Run inside powershell :`
+	```
+	 docker run --rm -v "${PWD}:/code" humanmade/plugin-tester
+	```
  - ` Write tests inside tests folder and run them `
  - ` .github folder allows you to run those tests on CI pipeline automatically on every PRs `
 
